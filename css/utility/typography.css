@@ -1,0 +1,56 @@
+/* Desktop */
+.font-60-m {
+  font-weight: 500;
+  font-size: 3.75rem;
+}
+
+.font-40-m {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.font-30-m {
+  font-weight: 500;
+  font-size: 1.875rem;
+}
+
+.font-20-m {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.font-20-r {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.font-18-r {
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+/* Mobile */
+.font-43-m {
+  font-weight: 500;
+  font-size: 2.688rem;
+}
+
+.font-36-m {
+  font-weight: 500;
+  font-size: 2.25rem;
+}
+
+.font-26-m {
+  font-weight: 500;
+  font-size: 1.625rem;
+}
+
+.font-18-m {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.font-16-r {
+  font-weight: 400;
+  font-size: 1rem;
+}
