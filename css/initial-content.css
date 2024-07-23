@@ -22,4 +22,9 @@
 .company-logos {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+.company-logos img {
+  mix-blend-mode: luminosity;
 }
