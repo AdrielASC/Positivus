@@ -1,8 +1,15 @@
 @import url(./global/global.css);
 @import url(./global/header.css);
+@import url(./global/footer.css);
 
 @import url(./utility/typography.css);
 @import url(./utility/colors.css);
 @import url(./utility/reusable.css);
 
 @import url(./initial-content.css);
+@import url(./services.css);
+@import url(./case-studies.css);
+@import url(./working-process.css);
+@import url(./team.css);
+@import url(./testimonials.css);
+@import url(./contact.css);

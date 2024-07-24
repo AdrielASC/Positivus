@@ -1,0 +1,36 @@
+.working-process-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 140px;
+}
+
+.black-bar {
+  content: "";
+  height: 1.5px;
+  width: 1114px;
+  display: inline-block;
+  background-color: var(--cor-1);
+}
+
+.working-process-card {
+  padding: 41px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 45px;
+  border: 1px solid var(--cor-3);
+  box-shadow: 0px 5px 0px 0px #191a23;
+  /* align-items: center; */
+}
+
+.working-process-title {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.working-process-topic {
+  display: flex;
+  justify-content: space-between;
+}

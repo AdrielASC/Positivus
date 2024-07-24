@@ -1,1 +1,56 @@
+/* Services Main Content */
 
+.services-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.service-card {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 45px;
+  border: 1px solid var(--cor-3);
+  box-shadow: 0px 5px 0px 0px #191a23;
+  align-items: center;
+}
+
+.service-info {
+  display: flex;
+  flex-direction: column;
+  gap: 93px;
+}
+
+.link-more {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Services Proposal */
+
+.services-proposal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-4);
+  border-radius: 45px;
+  align-items: center;
+  padding: 60px;
+  position: relative;
+  margin-bottom: 140px;
+}
+
+.services-proposal img {
+  position: absolute;
+  max-width: 359px;
+  max-height: 394.27px;
+  left: 846px;
+}
+
+.proposal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}

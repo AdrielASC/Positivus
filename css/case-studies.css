@@ -1,0 +1,23 @@
+.case-studies {
+  background-color: var(--cor-3);
+  padding: 70px 60px;
+  border-radius: 45px;
+  display: flex;
+  gap: 64px;
+  justify-content: space-evenly;
+  margin-bottom: 140px;
+}
+
+.white-bar {
+  content: "";
+  height: 186px;
+  width: 1px;
+  display: inline-block;
+  background-color: var(--cor-0);
+}
+
+.case-link {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
