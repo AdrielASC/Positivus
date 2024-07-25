@@ -23,6 +23,10 @@
   gap: 93px;
 }
 
+.service-img {
+  max-height: 210px;
+}
+
 .link-more {
   display: flex;
   gap: 15px;

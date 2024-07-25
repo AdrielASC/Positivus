@@ -8,7 +8,6 @@
 .black-bar {
   content: "";
   height: 1.5px;
-  width: 1114px;
   display: inline-block;
   background-color: var(--cor-1);
 }
