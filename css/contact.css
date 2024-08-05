@@ -1,0 +1,109 @@
+.contact {
+  background-color: var(--cor-4);
+  padding: 60px 0px 80px 100px;
+  margin-bottom: 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 45px;
+}
+
+.contact img {
+  justify-self: end;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.form input,
+textarea {
+  margin-top: 5px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-radio {
+  display: flex;
+  gap: 35px;
+}
+
+.form-radio {
+  display: flex;
+  gap: 35px;
+}
+
+.form-radio div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.radio-option {
+  cursor: pointer;
+}
+
+.form-radio input {
+  appearance: none;
+  background-color: var(--cor-0);
+  cursor: pointer;
+  margin: 0;
+  font: inherit;
+  width: 1.75em;
+  height: 1.75em;
+  border: 0.063em solid var(--cor-1);
+  border-radius: 50%;
+
+  display: grid;
+  place-content: center;
+}
+
+.form-radio input::before {
+  content: "";
+  width: 0.875em;
+  height: 0.875em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--cor-2);
+}
+
+.form-radio input:checked::before {
+  transform: scale(1);
+}
+
+.form input[type="email"],
+.form input[type="text"],
+.form textarea {
+  font: 400 1.125rem "Space Grotesk", sans-serif;
+  background: var(--cor-0);
+  border: 1px solid var(--cor-1);
+  padding: 18px 30px;
+  border-radius: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+  border: 1px solid var(--cor-2);
+  box-shadow: 0 0 0 1px var(--cor-2);
+  background: var(--cor-0);
+}
+
+.contact-button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px 35px;
+  color: var(--cor-0);
+  background-color: var(--cor-3);
+  border-radius: 14px;
+  border: none;
+}
