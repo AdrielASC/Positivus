@@ -1,0 +1,106 @@
+.footer {
+  background-color: var(--cor-3);
+  color: var(--cor-0);
+  padding: 55px 60px 50px 60px;
+  border-radius: 45px 45px 0 0;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-nav-button {
+  padding: 8px 0px;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-nav-button::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: var(--cor-0);
+  margin-top: 2px;
+  position: absolute;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-info {
+  margin-top: 66px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info-list {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-white-bar {
+  content: "";
+  height: 1px;
+  width: 100%;
+  display: inline-block;
+  background-color: var(--cor-0);
+
+  margin: 50px 0;
+}
+
+.positivus-rights {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-news {
+  background: var(--cor-5);
+  padding: 58px 40px;
+  border-radius: 14px;
+}
+
+.footer-news input {
+  font: 400 1.125rem "Space Grotesk", sans-serif;
+  color: var(--cor-0);
+  background: transparent;
+  border: 1px solid var(--cor-0);
+  padding: 22px 35px;
+  border-radius: 14px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+.footer-news input::placeholder {
+  color: var(--cor-0);
+}
+
+.footer-news input:hover {
+  outline: none;
+  border: 1px solid var(--cor-0);
+  box-shadow: 0 0 0 1px var(--cor-0);
+  background: var(--cor-3);
+}
+
+.footer-news button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px 35px;
+  background-color: var(--cor-2);
+  border-radius: 14px;
+  border: none;
+}
