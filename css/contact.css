@@ -107,3 +107,9 @@ textarea {
   border-radius: 14px;
   border: none;
 }
+
+.contact-button:hover {
+  background-color: var(--cor-2);
+  color: var(--cor-1);
+  transition: 0.3s;
+}

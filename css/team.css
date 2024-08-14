@@ -24,6 +24,11 @@
   gap: 28px;
 }
 
+.member-linkedin:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
 .team-card-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -39,6 +39,11 @@
   gap: 20px;
 }
 
+.social-media:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
 .footer-info {
   margin-top: 66px;
   display: flex;
@@ -79,7 +84,7 @@
   color: var(--cor-0);
   background: transparent;
   border: 1px solid var(--cor-0);
-  padding: 22px 35px;
+  padding: 18.5px 35px;
   border-radius: 14px;
   box-sizing: border-box;
   margin-right: 20px;
@@ -103,4 +108,9 @@
   background-color: var(--cor-2);
   border-radius: 14px;
   border: none;
+}
+
+.footer-news button:hover {
+  background-color: var(--cor-1);
+  color: var(--cor-0);
 }

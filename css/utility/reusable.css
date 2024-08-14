@@ -16,6 +16,13 @@
   width: max-content;
 }
 
+.dark-button:hover,
+.dark-button-2:hover {
+  background-color: var(--cor-2);
+  color: var(--cor-1);
+  transition: 0.3s;
+}
+
 .section-header {
   display: flex;
   gap: 40px;
